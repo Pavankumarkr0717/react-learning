@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Tailwind v4 defaults to media-query dark mode; switch to the .dark class. */
+@custom-variant dark (&:where(.dark, .dark *));
